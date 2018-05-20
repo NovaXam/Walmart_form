@@ -1,0 +1,19 @@
+.closedDiscount {
+    height: 0px;
+    overflow-y: hidden; 
+    font-size: 20px;
+    transition: height 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.openedDiscount {
+    height: 5rem;
+    overflow-y: scroll; 
+    transition: height 1s;
+    font-size: 20px;
+    transition-timing-function: ease-in-out;
+}
+
+.mb-3 {
+    overflow-y: hidden; 
+}

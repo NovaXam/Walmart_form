@@ -1,0 +1,40 @@
+.container {
+  /* text-align: center; */
+  font-family: "Source Sans Pro";
+}
+
+.openedPopUp {
+  position: absolute;
+  z-index: 1;
+  width: 13rem;
+  height: 6rem;
+  padding: 1.25rem;
+  font-size: 13px;
+  line-height: 17px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px lightgrey;
+  border-radius: 5px; 
+  background-color: white;
+  visibility: visible;
+  overflow: hidden;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.closedPopUP {
+  position: absolute;
+  z-index: 1;
+  width: 13rem;
+  height: 6rem;
+  padding: 1.25rem;
+  font-size: 13px;
+  line-height: 17px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px lightgrey;
+  border-radius: 5px; 
+  background-color: white;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 200ms;
+}

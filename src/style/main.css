@@ -1,0 +1,9 @@
+.main {
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 1.15px solid lightgray;
+    box-shadow: 1px 2px lightgray;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    max-width: 20rem;
+}

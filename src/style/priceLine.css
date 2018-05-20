@@ -1,0 +1,26 @@
+.line {
+    padding: 0rem 1rem;
+    height: auto;
+    margin: 0.5rem 0rem;
+}
+
+.desc {
+    text-align: left;
+}
+
+[id='1'] .money p {
+    color: red;
+}
+
+.money {
+    text-align: right;
+}
+
+.desc .pickUp {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.line p {
+    margin: 0;
+}

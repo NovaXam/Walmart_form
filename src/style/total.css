@@ -1,0 +1,11 @@
+.total {
+    font-weight: 800;
+    height: auto;
+    padding: 0rem 1rem;
+    font-size: 25px;
+    margin: 0.5rem 0rem;
+}
+
+.total p {
+    margin: 0;
+}

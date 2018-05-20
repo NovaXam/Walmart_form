@@ -1,0 +1,13 @@
+.item {
+    padding: 0rem 1rem;
+    margin: 1rem 0rem;
+}
+
+.title {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.block {
+    border-bottom: 1px solid lightgray;
+}
