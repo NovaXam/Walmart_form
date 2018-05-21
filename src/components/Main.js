@@ -112,6 +112,7 @@ class Main extends Component {
             let updatedInput = this.state.input;
             updatedInput.value = "";
             updatedInput.statusPress = true;
+            updatedInput.attemp += 1;
             this.setState({
                 input: updatedInput
             })
