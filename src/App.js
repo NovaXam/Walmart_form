@@ -66,8 +66,8 @@ class App extends Component {
 
 render() {
   let style = {
-      top: window.innerHeight / 5.5,
-      left: window.innerWidth / 3
+      top: this.state.position.height / 5.5,
+      left: this.state.position.width / 3
     };
     return (
       <div className="container">
@@ -75,14 +75,14 @@ render() {
           <p>Pick up your order in the store helps cuts costs, and we pass the savings on to you</p>
         </div>
         <div className="row no-gutters justify-content-center" onClick={this.handleOutSideClick}>      
-        <Main 
-          value={this.state.items[0].value}
-          photo={this.state.items[0].photo}
-          description={this.state.items[0].description}
-          promo={this.state.items[0].promoCode}
-          discountCharge={this.discountCharge.bind(this)}
-          handlePick={this.handlePick}
-        />
+          <Main 
+            value={this.state.items[0].value}
+            photo={this.state.items[0].photo}
+            description={this.state.items[0].description}
+            promo={this.state.items[0].promoCode}
+            discountCharge={this.discountCharge.bind(this)}
+            handlePick={this.handlePick}
+          />
         </div>
       </div>
     );

@@ -5,7 +5,7 @@ import ItemComp from './ItemComp';
 import { Description } from './Description';
 import { DiscountForm } from './DiscountForm';
 
-import '../style/main.css';
+import style from '../style/main.css';
 
 class Main extends Component {
     state={
@@ -181,7 +181,7 @@ render() {
                         value={this.state.input.value}
                         handleSubmit={this.handleSubmit.bind(this)}
                     >
-                        <p style={{fontSize: "12px", margin: "0rem 1rem", fontWeight: "800", color: "green"}}>you get 10% discount</p>
+                        <p className="accepted" style={style.accepted}>you get 10% discount</p>
                     </DiscountForm>        
     } else if (this.state.input.codeStatus && this.state.input.attemp > 1 || !this.state.input.codeStatus && this.state.input.statusPress) {
             child2 = <DiscountForm
@@ -190,7 +190,7 @@ render() {
                         value={this.state.input.value}
                         handleSubmit={this.handleSubmit.bind(this)}
                     >
-                    <p style={{fontSize: "12px", margin: "0rem 1rem", fontWeight: "800", color: "red"}}>invalid promo code</p>
+                    <p className="warning" style={style.warning}>invalid promo code</p>
                 </DiscountForm>
     }
     const compArr = [child1, child2];

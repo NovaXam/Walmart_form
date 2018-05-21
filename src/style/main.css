@@ -7,3 +7,17 @@
     border-radius: 5px;
     max-width: 20rem;
 }
+
+.accepted {
+    font-size: 12px;
+    margin: 0rem 1rem; 
+    font-weight: 800;
+    color: green;
+}
+
+.warning {
+    font-size: 12px; 
+    margin: 0rem 1rem; 
+    font-weight: 800; 
+    color: red;
+}
